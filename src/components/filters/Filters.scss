@@ -1,0 +1,27 @@
+.filter{
+    background-color: whitesmoke;
+    color: darkmagenta;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin: 15px;
+    height: 86vh;
+    
+
+    .filter-title{
+         font-size: 30px;
+    }
+ 
+    span{
+         padding-bottom: 20px;
+    }
+    button{
+        background-color: whitesmoke;
+        border-color: darkmagenta;
+        border-radius: 15px;
+        color: darkmagenta;
+        font-size: 20px;
+        cursor: pointer;
+    }
+}

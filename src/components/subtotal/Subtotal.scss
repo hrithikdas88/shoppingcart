@@ -1,0 +1,17 @@
+.subtotal{
+    background-color: whitesmoke;
+    color: darkmagenta;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin: 15px;
+    height: 86vh;
+    font-size: xx-large;
+
+    button{
+        background-color: white;
+        border-radius: 2px solid violet;
+        color: darkmagenta;
+    }
+}

@@ -1,0 +1,78 @@
+.navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(245, 244, 244);
+    color: violet;
+    position: relative;
+    z-index: 1;
+    
+   
+
+    .container{
+        width: 1400px;           
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 0px;
+        align-items: center;
+        margin-top: auto;
+  margin-bottom: auto;
+
+    
+  
+    
+    input{
+        width: 50%;
+        border-color: darkmagenta;
+        border-radius: 15px;
+        background-color: whitesmoke;
+        font-size: 14px;
+        padding: 11px;
+        margin-bottom: 15px;
+        
+        
+    }
+    input::placeholder {
+        color: darkmagenta;
+      }
+
+     :link{
+        font-size: 30px;
+        font-weight: bold;
+        text-decoration: none;
+        
+     }
+    
+    button{
+        background-color: whitesmoke;
+        padding: 11px;
+        margin-bottom: 15px;
+        font-size: 14px;
+        width: 78px;
+        height: 37px;
+        border: none;
+        border-radius:15px ;
+        cursor: pointer;
+        display: flex;
+        justify-content: space-around;
+
+       
+      img{
+        width: 25px;
+        height: 25px;
+        
+      }
+
+      span{
+        font: 250px;
+      }
+
+
+    }
+    
+    
+    
+    }
+
+
+}
